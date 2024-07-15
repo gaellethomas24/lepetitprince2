@@ -1,0 +1,74 @@
+body {
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5ebe0;
+}
+
+header {
+    background-color: #6fb496;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #d8b7a8;
+}
+
+header h1 {
+    margin: 0;
+    color: #fff;
+    text-shadow: 2px 2px #d72423ff;
+}
+
+nav {
+    background-color: #d8b7a8;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    padding: 0 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #6fb496;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+main h2 {
+    margin: 0 0 10px;
+    color: #d8b7a8;
+}
+
+main p {
+    margin: 0;
+    line-height: 1.5;
+}
+
+
+
+.personnage {
+    width: 33.33%;
+    padding: 10px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+}
+
+.personnage img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 2vw;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+/*    object-fit: cover;*/
+}
+
+.personnage h3 {
+    margin: 5px 0;
+    color: #d8b7a8;
+}
